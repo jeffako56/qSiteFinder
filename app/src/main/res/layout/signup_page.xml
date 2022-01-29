@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup_page"
+    android:background="@drawable/bg_signup">
+
+    <ImageView
+        android:id="@+id/createacc"
+        android:layout_width="260dp"
+        android:layout_height="250dp"
+        android:background="@drawable/create_font"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="370dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/createacc"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/barshadow"
+        android:hint="Username"
+        android:paddingLeft="50dp"
+        android:paddingBottom="40dp"
+        android:textColorHint="#818080"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="370dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/name"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/barshadow"
+        android:hint="E-mail"
+        android:textColorHint="#818080"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="50dp"
+        android:paddingBottom="40dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="370dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/barshadow"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="40dp"
+        android:textColorHint="#818080"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="370dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/password"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/barshadow"
+        android:hint="Mobile"
+        android:inputType="phone"
+        android:paddingLeft="50dp"
+        android:paddingBottom="40dp"
+        android:textColorHint="#818080"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/create"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:background="@drawable/create2_font"
+        android:layout_below="@id/mobile"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-75dp"
+        android:layout_marginRight="100dp"/>
+
+    <ImageButton
+        android:id="@+id/create_btn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/mobile"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/create_btn"
+        android:src="@drawable/ic_baseline_arrow_right_24" />
+
+
+</RelativeLayout>

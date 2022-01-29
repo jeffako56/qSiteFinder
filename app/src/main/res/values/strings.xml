@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Prototype</string>
+    <string name="facebook_app_id">421248889700054</string>
+    <string name="fb_login_protocol_scheme">fb421248889700054</string>
+</resources>
+
