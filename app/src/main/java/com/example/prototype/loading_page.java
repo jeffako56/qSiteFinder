@@ -17,7 +17,7 @@ public class loading_page extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(loading_page.this, login_page.class));
+                startActivity(new Intent(loading_page.this, SocialLoginActivity.class));
                 finish();
             }
         }, 4000);
