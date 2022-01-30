@@ -16,6 +16,56 @@
         android:drawableLeft="@drawable/ic_baseline_search_24"
         android:paddingLeft="20dp"/>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/fblogout_button_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FB Log out"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
+
+        <Button
+            android:id="@+id/glogout_button_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gLogout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/fblogout_button_homepage"
+
+            />
+
+        <TextView
+            android:id="@+id/text_name"
+            app:layout_constraintBottom_toBottomOf="@id/fblogout_button_homepage"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="name for google only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/text_email"
+            app:layout_constraintBottom_toBottomOf="@id/fblogout_button_homepage"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/text_name"
+            android:text="email for google only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
